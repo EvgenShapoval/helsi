@@ -38,7 +38,7 @@ public class SmokeFilterTest extends BaseTest {
     	Thread.sleep(1000);
 //    	clinicsPage.linkClinicViva.click();
     	
-//    	FilterChips cmomm
+//    	FilterChips
     	
     	String actualMessageSvyatoshyn = clinicsPage.filterChipsSvyatoshyn.getText();
     	String actualMessagePrivate = clinicsPage.checkboxPrivate.getText();
@@ -64,26 +64,5 @@ public class SmokeFilterTest extends BaseTest {
 				". Actual message - " + actualMessageChildrenRoom, 
 				compareMessageSvyatoshyn & compareMessagePrivate & compareMessageChildrenRoom);
     	
-    	
-    	
-    	
-    	
-//    	System.out.println();
-//    	System.out.println(clinicsPage.checkboxPrivate.getText());
-//    	System.out.println(clinicsPage.filterChipsChildrenRoom.getText());
-    	
-    	
-//    	Thread.sleep(3000);
-    	
-//    	Select clickSelectService = new Select(homePage.selectService);
-//    	clickSelectService.selectByIndex(0);
-    	
-//    	homePage.clickSelectService();
-    	
-    	   	
-
-//    	homePage.selectService.click();
-	
-    	Thread.sleep(3000);
     }
 }
