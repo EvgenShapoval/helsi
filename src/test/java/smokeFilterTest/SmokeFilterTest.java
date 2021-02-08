@@ -38,7 +38,7 @@ public class SmokeFilterTest extends BaseTest {
     	Thread.sleep(1000);
 //    	clinicsPage.linkClinicViva.click();
     	
-//    	FilterChips
+//    	FilterChips cmment
     	
     	String actualMessageSvyatoshyn = clinicsPage.filterChipsSvyatoshyn.getText();
     	String actualMessagePrivate = clinicsPage.checkboxPrivate.getText();
